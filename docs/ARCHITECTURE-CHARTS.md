@@ -1,7 +1,7 @@
 # beyvra-frontend — Architecture Charts
 
-> Repository: `appolon1908/beyvra-frontend`  
-> Baseline branch: `main`  
+> Repository: `appolon1908/beyvra-frontend`
+> Baseline branch: `main`
 > Repository-local visual architecture. Keep these diagrams aligned with implementation, contracts and runtime boundaries.
 
 ## 1. System context
