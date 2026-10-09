@@ -23,8 +23,8 @@
     "test:realtime": "vitest run src/realtime/UnifiedRealtimeClient.test.ts",
     "test": "npm run typecheck && npm run build:prod",
     "test:contract": "node scripts/check-api-contract.mjs",
-    "test:e2e": "playwright test"
-    ,"test:chart": "vitest run src/pages/private/platform/chart/chartEngine.test.ts src/pages/private/platform/chart/workspaceIntegration.test.ts src/pages/private/platform/chart/performance.test.ts src/pages/private/platform/chart/indicators/indicators.test.ts src/pages/private/platform/chart/drawings/drawings.test.ts src/pages/private/platform/chart/trades/tradeMarkers.test.ts src/pages/private/platform/chart/events/newsCalendar.test.ts"
+    "test:e2e": "playwright test",
+    "test:chart": "vitest run src/pages/private/platform/chart/chartEngine.test.ts src/pages/private/platform/chart/workspaceIntegration.test.ts src/pages/private/platform/chart/performance.test.ts src/pages/private/platform/chart/indicators/indicators.test.ts src/pages/private/platform/chart/drawings/drawings.test.ts src/pages/private/platform/chart/trades/tradeMarkers.test.ts src/pages/private/platform/chart/events/newsCalendar.test.ts"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.6.0",
@@ -41,11 +41,11 @@
     "formik": "^2.4.5",
     "i18next": "^23.9.0",
     "i18next-browser-languagedetector": "^7.2.0",
-    "i18next-http-backend": "^4.0.1",
+    "i18next-http-backend": "4.0.2",
     "jquery": "4.0.0",
     "lightweight-charts": "^4.2.1",
     "lodash": "^4.17.21",
-    "moment": "^2.30.1",
+    "moment": "2.31.0",
     "react": "19.2.7",
     "react-cookie": "^7.1.0",
     "react-dom": "19.2.7",
