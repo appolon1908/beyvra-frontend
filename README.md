@@ -225,3 +225,7 @@ Those capabilities require a separate reviewed backend and frontend activation r
 Use short-lived branches and pull requests. Keep each change reviewable, update tests and documentation with behavior, preserve backend/frontend contract compatibility, and never weaken a release gate merely to make CI green.
 
 Merging this repository never authorizes a provider credential, financial mutation, live trading, or real-money operation.
+
+## Governance Git hooks
+
+Enable the shared pre-push checks from your approved workstation using the [hook setup and lease instructions](docs/governance-git-hooks.md). Activation is explicit for each clone; existing CI and publication requirements still apply.
